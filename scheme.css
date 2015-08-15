@@ -1,0 +1,35 @@
+/*
+  10. Set the text-align style of the form tag to center
+  11. Give all elements with the color-choice class the following styles:
+    a) a width of 20%
+      - Remember that we have 5 elements? What is significant about 20%?
+    b) a height of 100px
+    c) float to the left
+  12. Assign each div the same background color as its id 
+  CONTINUE MISSION IN js/plot.js
+*/
+form{
+    text-align: center;
+}
+
+.color-choice {
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+DodgerBlue{
+    background-color: DodgerBlue;
+}
+ForestGreen{
+    background-color: ForestGreen;
+}
+Indigo{
+    background-color: Indigo;
+}
+Maroon{
+    background-color: Maroon;
+}
+Yellow{
+    background-color: Yellow;
+}
+input[name='color']:checked
