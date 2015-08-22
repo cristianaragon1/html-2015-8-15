@@ -17,19 +17,19 @@ form{
     height: 100px;
     float: left;
 }
-DodgerBlue{
+#DodgerBlue{
     background-color: DodgerBlue;
 }
-ForestGreen{
+#ForestGreen{
     background-color: ForestGreen;
 }
-Indigo{
+#Indigo{
     background-color: Indigo;
 }
-Maroon{
+#Maroon{
     background-color: Maroon;
 }
-Yellow{
+#Yellow{
     background-color: Yellow;
 }
-input[name='color']:checked
+#input[name='color']:checked

@@ -20,8 +20,9 @@
 */
 function plotScheme() {
     var bodyVar = $("body");
-    var inputVar = $("input[name='color']:checked");
+    var inputVar = $("select");
     v = inputVar.val();
     bodyVar.css('background-color',v)
+    return false;
 }
 

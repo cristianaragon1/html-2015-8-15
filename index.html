@@ -14,44 +14,57 @@
     -->
   </head>
   <body>
-    <form onSubmit="plotScheme()">
+    <form onSubmit="return plotScheme()">
+    <select>
+       
       
-      <div id="DodgerBlue" class="color-choice">
-        <input type="radio" name="color" value=DodgerBlue>
-          <p>
-            Dodger Blue
-          </p>
-      </div>
+      <label id="DodgerBlue" class="color-choice">
+        <option value="DodgerBlue">Dodger Blue</option>
+          
+      </label>
       
-       <div id="ForestGreen" class="color-choice">
+       <label id="ForestGreen" class="color-choice">
+        <!--
         <input type="radio" name="color" value=ForestGreen>
           <p>
             Forest Green
           </p>
-      </div>
+          -->
+          <option value="ForestGreen">Forest Green</option>
+      </label>
        
-        <div id="Indigo" class="color-choice">
+        <label id="Indigo" class="color-choice">
+          <!--
         <input type="radio" name="color" value=Indigo>
           <p>
             Indigo
           </p>
-      </div>
+          -->
+          <option value="Indigo">Indigo</option>
+      </label>
         
-         <div id="Maroon" class="color-choice">
+         <label id="Maroon" class="color-choice">
+          <!--
         <input type="radio" name="color" value=Maroon>
           <p>
             Maroon
           </p>
-      </div>
+        -->
+        <option value="Maroon">Maroon</option>
+      </label>
          
-          <div id="Yellow" class="color-choice">
+          <label id="Yellow" class="color-choice">
+            <!--
         <input type="radio" name="color" value=Yellow>
           <p>
             Yellow
           </p>
-      </div>
+         -->
+         <option value="yellow">Yellow</option>
+      </label>
        
        <input type="submit">
+    </select>
     </form>
     <!--
       3. Create a form element with the attribute: method="plotScheme"
